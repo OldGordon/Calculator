@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+		<html>
+		<head>
+			<title>Calculator Freecodecamp</title>
+			<link rel="stylesheet" type="text/css" href="styles.css">
+			
+		</head>
+		<body>
+		<div id="wrapper"><!---Div principal-->
+		<img class="logo" src="freecodecamp_logo.svg">
+			<div id="display"></div>
+
+				<div id="buttons">
+
+					<button type="button" id="clean" class="keys" onclick="clearValue()">CE</button>
+					<button id="seven" class="keys" onclick="changeValue('7')">7</button>
+					<button id="eight" class="keys" onclick="changeValue('8')">8</button> 
+					<button id="nine" class="keys" onclick="changeValue('9')">9</button> 
+					<button id="divide" class="keys" onclick="changeValue(' : ')">&divide;</button>
+
+					<button id="mod" class="keys" onclick="changeValue(' % ')">&percnt;</button>
+					<button id="four" class="keys" onclick="changeValue('4')">4</button>
+					<button id="five" class="keys" onclick="changeValue('5')">5</button>
+					<button id="six" class="keys" onclick="changeValue('6')">6</button>
+					<button id="multi" class="keys" onclick="changeValue(' x ')">&times;</button>
+					<button id="root" class="keys" onclick="calcSqrt()">&radic;</button>
+					<button id="one" class="keys" onclick="changeValue('1')">1</button>
+					<button id="two" class="keys" onclick="changeValue('2')">2</button>
+					<button id="three" class="keys" onclick="changeValue('3')">3</button>
+                    <button id="minus" class="keys" onclick="changeValue(' - ')">&minus;</button>
+                    <button id="on" onclick = "onOff()" class="keys">ON</button>
+                    <button id="zero" class="keys" onclick="changeValue('0')">0</button>
+                    <button id="dot" class="keys" onclick="changeValue('.')">&bull;</button>
+					<button id="equal" class="keys" onclick="setResult()">&equals;</button>
+					<button id="plus" class="keys" onclick="changeValue(' + ')">&plus;</button>
+
+					
+  					
+					
+					
+
+					
+					
+					
+				
+				</div><!--End div buttons-->
+		</div><!--End wrapper-->
+        
+		</body>
+<script  src="app.js" type="text/javascript"></script>
+		</html>		
